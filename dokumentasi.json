@@ -48,7 +48,7 @@
 		{
 			"name": "Update",
 			"request": {
-				"method": "GET",
+				"method": "PUT",
 				"header": []
 			},
 			"response": []
@@ -56,7 +56,7 @@
 		{
 			"name": "Delete",
 			"request": {
-				"method": "GET",
+				"method": "DELETE",
 				"header": []
 			},
 			"response": []
