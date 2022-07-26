@@ -61,7 +61,6 @@ class ItemController extends Controller
             ],200);
 
         } catch (Exception $e) {
-            //throw $th;
 
             DB::rollBack();
 
@@ -103,7 +102,7 @@ class ItemController extends Controller
     /**
      * Remove the specified resource from storage.
      * @param int $id
-     * @return Renderable
+     * @return Json
      */
     public function destroy($id)
     {
